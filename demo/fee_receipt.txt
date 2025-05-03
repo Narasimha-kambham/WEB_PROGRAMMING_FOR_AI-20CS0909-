@@ -1,0 +1,16 @@
+Fee Receipt
+Name: K.Viswa
+Father's Name: K.Arjun Sarkaar
+Roll No: 224E1A3371
+Email: Dummy@gmail.com
+Contact: 9999999999
+Address: XYZ street , pearl nagar , Mumbai
+Gender: Male
+Nationality: India
+10th Passing Year: 2020
+12th Passing Year: 2022
+Points in 10th: 10
+Percentage in 12th: 93
+Group: SEAS
+Hostel Status: Day Scholar
+Course: CSE
