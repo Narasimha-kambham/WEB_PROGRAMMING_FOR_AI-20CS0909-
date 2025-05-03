@@ -44,7 +44,6 @@ This repository contains implementations of all the experiments from the **Web P
 ## Technologies Used
 - HTML, CSS, JavaScript
 - Java Servlets
-- Laravel
 - MongoDB
 - Node.js
 - MeteorJS
