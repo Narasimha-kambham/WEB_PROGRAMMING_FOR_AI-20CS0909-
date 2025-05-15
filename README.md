@@ -6,7 +6,6 @@ This repository contains implementations of all the experiments from the **Web P
 - **Course Code:** 20CS0909
 - **Course Name:** Web Programming for Artificial Intelligence
 - **Department:** Computer Science and Engineering (CSM)
--
 
 ## Lab Experiments
 
@@ -78,7 +77,9 @@ This project demonstrates how to build and run a **Java Servlet-based web applic
 📌 Red Hat Commons  
 📌 Tomcat for Java  Or  Community Server Connections
 ```
-📂 Project Structure
+🪜Step by Step process to run a Servlet from scratch
+
+📂 Example Project Structure 
 ```bash
 
 ServletDemo/
