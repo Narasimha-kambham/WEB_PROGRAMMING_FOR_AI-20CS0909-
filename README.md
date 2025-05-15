@@ -61,11 +61,11 @@ This project demonstrates how to build and run a **Java Servlet-based web applic
 ```bash
 🔧 JDK               : Version 20  
 🌐 Node.js           : Latest Stable  
-🧠 MongoDB Compass   : Optional (for full-stack features)  
+🧠 MongoDB Compass   : Optional (for 8th experiment)  
 📦 Apache Maven      : 3.8 or later  
 🌐 Apache Tomcat     : Version 9.x  
 💻 Visual Studio Code: Latest  
-🌠 Meteor.js         : Optional (only if building hybrid apps)
+🌠 Meteor.js         : Optional (only for 10th experiment)
 
 ```
 
@@ -76,8 +76,7 @@ This project demonstrates how to build and run a **Java Servlet-based web applic
 📌 Maven for Java  
 📌 Project Manager for Java  
 📌 Red Hat Commons  
-📌 Tomcat for Java  
-📌 Community Server Connections
+📌 Tomcat for Java  Or  Community Server Connections
 ```
 📂 Project Structure
 ```bash
