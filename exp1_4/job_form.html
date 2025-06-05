@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Job Application Form</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      form {
+        background: #f9f9f9;
+        padding: 20px;
+        border-radius: 5px;
+      }
+      h1 {
+        text-align: center;
+        color: #333;
+      }
+      .form-group {
+        margin-bottom: 15px;
+      }
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+      input,
+      select,
+      textarea {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+      }
+      button {
+        background: #4caf50;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        cursor: pointer;
+        border-radius: 25px;
+      }
+      button:hover {
+        background: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Job Application</h1>
+    <form>
+      <!-- Text Input -->
+      <div class="form-group">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" required />
+      </div>
+
+      <!-- Email Input -->
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" required />
+      </div>
+
+      <!-- Password Input -->
+      <div class="form-group">
+        <label for="password">Create Password:</label>
+        <input type="password" id="password" required />
+      </div>
+
+      <!-- Number Input -->
+      <div class="form-group">
+        <label for="age">Age:</label>
+        <input type="number" id="age" min="18" max="60" />
+      </div>
+
+      <!-- Date Input -->
+      <div class="form-group">
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" />
+      </div>
+
+      <!-- Radio Buttons -->
+      <div class="form-group">
+        <label>Gender:</label>
+
+        <label for="male" style="display: flex; justify-content: space-between"
+          >Male
+          <input
+            type="radio"
+            id="male"
+            name="gender"
+            value="male"
+            style="width: 50px"
+          />
+        </label>
+
+        <label
+          for="female"
+          style="display: flex; justify-content: space-between"
+          >Female
+          <input
+            type="radio"
+            id="female"
+            name="gender"
+            value="female"
+            style="width: 50px"
+        /></label>
+      </div>
+
+      <!-- Dropdown Select -->
+      <div class="form-group">
+        <label for="position">Position:</label>
+        <select id="position" required>
+          <option value="">Select Position</option>
+          <option value="developer">Developer</option>
+          <option value="designer">Designer</option>
+          <option value="manager">Manager</option>
+        </select>
+      </div>
+
+      <!-- Checkboxes -->
+      <div class="form-group">
+        <label>Skills:</label>
+
+        <label for="html" style="display: flex; justify-content: space-between"
+          >HTML
+          <input
+            type="checkbox"
+            id="html"
+            name="skills"
+            value="html"
+            style="width: 50px"
+          />
+        </label>
+
+        <label for="css" style="display: flex; justify-content: space-between"
+          >CSS
+          <input
+            type="checkbox"
+            id="css"
+            name="skills"
+            value="css"
+            style="width: 50px"
+        /></label>
+
+        <label for="js" style="display: flex; justify-content: space-between"
+          >JavaScript
+          <input
+            type="checkbox"
+            id="js"
+            name="skills"
+            value="javascript"
+            style="width: 50px"
+        /></label>
+      </div>
+
+      <!-- Textarea -->
+      <div class="form-group">
+        <label for="experience">Work Experience:</label>
+        <textarea id="experience" rows="4"></textarea>
+      </div>
+
+      <!-- File Upload -->
+      <div class="form-group">
+        <label for="resume">Upload Resume:</label>
+        <input type="file" id="resume" />
+      </div>
+
+      <!-- Submit Button -->
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
